@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perizinan.AdmINdo — Solusi Mudah Perizinan Usaha & Administrasi Perpajakan</title>
+    <meta name="description" content="Perizinan.AdmINdo membantu pengurusan OSS, NIB, Coretax, pelaporan pajak, serta pendampingan administrasi usaha secara profesional, cepat, dan mudah." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      // SPA redirect: GitHub Pages serves 404.html for unknown paths.
+      // Convert the path to a hash route so our app can handle it.
+      (function () {
+        var pathSegmentsToKeep = 1; // change to 2 if repo is under /user/repo/
+        var l = window.location;
+        if (l.pathname.split('/').length > pathSegmentsToKeep + 1) {
+          l.href =
+            l.protocol + '//' + l.hostname + l.pathname.split('/').slice(0, pathSegmentsToKeep + 1).join('/') + '/?/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/\/$/, '') + l.search + l.hash;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
